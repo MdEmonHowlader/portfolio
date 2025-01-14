@@ -66,19 +66,32 @@ export default function App() {
           </p>
         </div>
         <nav className="menu hidden lg:flex lg:text-white lg:gap-x-10 text-lg lg:font-bold lg:px-36 pt-5">
-          <a className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110" href="#">
-            Home
-          </a>
-          <a className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110" href="#">
-            About Me
-          </a>
-          <a className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110" href="#">
-            Experience
-          </a>
-          <a className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110" href="#">
-            Contact
-          </a>
-        </nav>
+  <a
+    className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110"
+    href="#home"
+  >
+    Home
+  </a>
+  <a
+    className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110"
+    href="#about"
+  >
+    About Me
+  </a>
+  <a
+    className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110"
+    href="#experience"
+  >
+    Experience
+  </a>
+  <a
+    className="cursor-pointer hover:text-blue-500 transition-colors duration-500 hover:scale-110"
+    href="#contact"
+  >
+    Contact
+  </a>
+</nav>
+
       </header>
 
       <main className="home order-1 lg:flex lg:justify-between lg:items-center lg:px-28 lg:pt-14">
