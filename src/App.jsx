@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './index.css';
 import About from './About.jsx';
 import Experience from './Experience.jsx';
+import Contact from './Contact.jsx';
 
 export default function App() {
   useEffect(() => {
@@ -125,6 +126,7 @@ export default function App() {
       </main>
       <About />
       <Experience />
+      <Contact />
     </div>
   );
 }
