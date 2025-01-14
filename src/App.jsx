@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './index.css';
 import About from './About.jsx';
+import Experience from './Experience.jsx';
 
 export default function App() {
   useEffect(() => {
@@ -123,6 +124,7 @@ export default function App() {
         </section>
       </main>
       <About />
+      <Experience />
     </div>
   );
 }
