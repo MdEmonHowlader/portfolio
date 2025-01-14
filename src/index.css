@@ -19,3 +19,17 @@
 .glow-button {
   animation: glowing 2s infinite;
 }
+
+@keyframes fillBar {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: var(--skill-level);
+  }
+}
+
+.skill-bar {
+  animation: fillBar 2s ease-in-out forwards;
+}
