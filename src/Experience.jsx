@@ -19,13 +19,21 @@ ExperienceBox.propTypes = {
 // Main Experience Component
 export default function Experience() {
   const experiences = [
-    { imgSrc: './image/html.png', description: 'Experience with HTML and web structure development.' },
+    { imgSrc: './image/php.png', description: 'Experience with Php and web structure development.' },
     { imgSrc: './image/tail.png', description: 'Skilled in Tailwind CSS for responsive designs.' },
     { imgSrc: './image/c++.png', description: 'Proficient in C++ for competitive programming.' },
     { imgSrc: './image/c.png', description: 'Familiar with the C language for systems programming.' },
     { imgSrc: './image/java.png', description: 'Experience with Java for object-oriented programming.' },
     { imgSrc: './image/word.png', description: 'Knowledge in WordPress for content management.' },
+    { imgSrc: './image/React.png', description: 'Skilled in React for frontend development.' },
     
+    { imgSrc: './image/python.jpg', description: 'Familiar with Python for scripting and automation.' },
+    { imgSrc: './image/git.png', description: 'Knowledge in Git for version control and collaboration.' },
+    { imgSrc: './image/htm.png', description: 'Experience with HTML for web content structure.' },
+    { imgSrc: './image/css.png', description: 'Skilled in CSS for web content styling.' },
+    { imgSrc: './image/javaScript.png', description: 'Experience with JavaScript for web interactivity.' },
+    
+
   ];
 
   return (

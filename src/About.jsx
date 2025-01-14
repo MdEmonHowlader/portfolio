@@ -53,17 +53,7 @@ export default function About() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">MySQL Developer</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-violet-800 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '75%', width: '0%' }}
-                                        >
-                                            75%
-                                        </div>
-                                    </div>
-                                </div>
+                              
 
                                 {/* Skill 2 */}
                                 <div className="mb-4">
@@ -77,74 +67,12 @@ export default function About() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">PHP</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-emerald-500 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '80%', width: '0%' }}
-                                        >
-                                            80%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">Java</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-emerald-500 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '50%', width: '0%' }}
-                                        >
-                                            50%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">Python</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-emerald-500 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '50%', width: '0%' }}
-                                        >
-                                            50%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">JavaScript</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-emerald-500 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '60%', width: '0%' }}
-                                        >
-                                            60%
-                                        </div>
-                                    </div>
-                                </div>
+                             
+                               
+                            
+            
 
-                                {/* Skill 3 */}
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">Backend Development</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-orange-600 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '90%', width: '0%' }}
-                                        >
-                                            90%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mb-4">
-                                    <div className="text-lg font-semibold mb-2 text-blue-500">Frontend Development</div>
-                                    <div className="bg-[#FFFFFF60] rounded-full h-4">
-                                        <div
-                                            className="skill-bar bg-orange-600 h-4 rounded-full text-right pr-2 text-white text-xs"
-                                            style={{ '--skill-level': '80%', width: '0%' }}
-                                        >
-                                            80%
-                                        </div>
-                                    </div>
-                                </div>
+                            
                             </div>
                         </div>
                     </div>
