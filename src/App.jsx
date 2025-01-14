@@ -113,11 +113,12 @@ export default function App() {
               </div>
             </div>
           </div>
-        </div>
-        <div className='img  px-3 pt-10 lg:w-80 lg:mr-40 grayscale'>
-          <img className="rounded-full w-80 h-80 lg:w-96 lg:h-96" src="/image/emon.jpg" alt="Emon" />
+          <div className='img  px-3 pt-10 lg:w-80 lg:mr-50 grayscale'>
+          <img className="rounded-lg" src="/image/emon.JPG" alt="Emon" />
 
         </div>
+        </div>
+      
       </div>
       </>
     )
